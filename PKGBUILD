@@ -57,7 +57,7 @@ package_drone-server() {
   install -Dm755 "$srcdir/$_pkgname/release/drone-server" "$pkgdir/usr/bin/drone-server"
 
   # license
-  install -Dm644 "$_pkgname/LICENSE" "$pkgdir/usr/share/$_pkgname"
+  install -Dm644 "$_pkgname/LICENSE" "$pkgdir/usr/share/${pkgname}"
 
   # service
   install -Dm644 drone-server.service "$pkgdir/usr/lib/systemd/system/drone-server.service"
@@ -79,7 +79,7 @@ package_drone-agent() {
   install -Dm755 "$srcdir/$_pkgname/release/drone-agent" "$pkgdir/usr/bin/drone-agent"
 
   # license
-  install -Dm644 "$_pkgname/LICENSE" "$pkgdir/usr/share/$_pkgname"
+  install -Dm644 "$_pkgname/LICENSE" "$pkgdir/usr/share/${pkgname}"
 
   # service
   install -Dm644 drone-agent.service "$pkgdir/usr/lib/systemd/system/drone-agent.service"

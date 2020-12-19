@@ -34,10 +34,10 @@ pre_remove() {
 
 ## arg 1:  the old package version
 post_remove() {
+  gpasswd -d drone docker
   pacman -Qq drone-server &>/dev/null && return 0
   getent passwd drone &>/dev/null && userdel drone >/dev/null
   getent group drone &>/dev/null && groupdel drone >/dev/null
-  gpasswd -d drone docker
 }
 
 # vim:set ts=2 sw=2 et:

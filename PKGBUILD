@@ -2,7 +2,7 @@
 
 pkgname=('drone-server' 'drone-agent')
 _pkgname=drone
-pkgver=1.10.0
+pkgver=1.10.1
 pkgrel=1
 pkgdesc="Drone is a Continuous Integration platform built on Docker, written in Go."
 arch=('i686' 'x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
@@ -15,7 +15,7 @@ source=("$_pkgname-$pkgver.tar.gz::https://github.com/$_pkgname/$_pkgname/archiv
         'drone-agent.service'
         'server.conf'
         'agent.conf')
-sha256sums=('de8ecb683e5b992e72f99d2d8dd1302036fa0008d6c286d002309908f1b7642a'
+sha256sums=('22e934f1d8da385082d6704781c4a89e6a8594fbd0292ea9a5bcb472cafce22e'
 		    '5be757ee7375ec0b264a0f61745a045c1a605a460b22b8ccd3d86e5cbc2764c2'
 			'afa143befcc65bd2f9cdfb0b5b2c435385eaf6ad9bd12aeec81eb060b441f007'
 			'4939f041cacbcab38aa2ea1af0fb229bc5afddfac28b8acf62f931ae632d913a'

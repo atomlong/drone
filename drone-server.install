@@ -31,7 +31,6 @@ pre_remove() {
 
 ## arg 1:  the old package version
 post_remove() {
-  pacman -Qq drone-agent &>/dev/null && return 0
   getent passwd drone &>/dev/null && userdel drone >/dev/null
   getent group drone &>/dev/null && groupdel drone >/dev/null
 }

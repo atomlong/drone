@@ -2,7 +2,7 @@
 
 pkgname=('drone-server')
 _pkgname=drone
-pkgver=2.0.2
+pkgver=2.0.3
 pkgrel=1
 pkgdesc="Drone is a Continuous Integration platform built on Docker, written in Go."
 arch=('i686' 'x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
@@ -13,7 +13,7 @@ backup=('etc/drone/server')
 source=("$_pkgname-$pkgver.tar.gz::https://github.com/$_pkgname/$_pkgname/archive/v$pkgver.tar.gz"
         'drone-server.service'
         'server.conf')
-sha256sums=('fb31e791249d50580d828f17e59cc794646b43705be172c7f165f69e5b500f22'
+sha256sums=('354b60a8616dfa17ebe3f82026f0865619e55f0725a60d850ce81c50733debcb'
 		    '5be757ee7375ec0b264a0f61745a045c1a605a460b22b8ccd3d86e5cbc2764c2'
 			'4939f041cacbcab38aa2ea1af0fb229bc5afddfac28b8acf62f931ae632d913a')
 

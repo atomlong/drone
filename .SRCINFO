@@ -1,6 +1,6 @@
 pkgbase = drone-server
 	pkgdesc = Drone is a Continuous Integration platform built on Docker, written in Go.
-	pkgver = 2.3.1
+	pkgver = 2.16.0
 	pkgrel = 1
 	url = http://github.com/drone/drone
 	arch = i686
@@ -13,10 +13,10 @@ pkgbase = drone-server
 	makedepends = git
 	makedepends = go
 	backup = etc/drone/server
-	source = drone-2.3.1.tar.gz::https://github.com/drone/drone/archive/v2.3.1.tar.gz
+	source = drone-2.16.0.tar.gz::https://github.com/drone/drone/archive/v2.16.0.tar.gz
 	source = drone-server.service
 	source = server.conf
-	sha256sums = b9a6a844a522a8a08966e4d40e730d6a8f4bfd945ef6428f7f78ba1793a93a05
+	sha256sums = b09e2bc691d8b02ff88b7379a8539aea1a4627ad7c8033b7be45da0870c9fa0f
 	sha256sums = 5be757ee7375ec0b264a0f61745a045c1a605a460b22b8ccd3d86e5cbc2764c2
 	sha256sums = 4939f041cacbcab38aa2ea1af0fb229bc5afddfac28b8acf62f931ae632d913a
 
